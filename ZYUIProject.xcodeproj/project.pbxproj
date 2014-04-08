@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C07553918F28CF0001948A3 /* ZYTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C07553718F28CF0001948A3 /* ZYTimerViewController.m */; };
+		3C07553A18F28CF0001948A3 /* ZYTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C07553818F28CF0001948A3 /* ZYTimerViewController.xib */; };
+		3C07553E18F28D06001948A3 /* ZYThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C07553C18F28D06001948A3 /* ZYThreadViewController.m */; };
+		3C07553F18F28D06001948A3 /* ZYThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C07553D18F28D06001948A3 /* ZYThreadViewController.xib */; };
 		3C1BE89F18EA843A0048EA81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1BE89E18EA843A0048EA81 /* Foundation.framework */; };
 		3C1BE8A118EA843A0048EA81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1BE8A018EA843A0048EA81 /* CoreGraphics.framework */; };
 		3C1BE8A318EA843A0048EA81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1BE8A218EA843A0048EA81 /* UIKit.framework */; };
@@ -19,6 +23,26 @@
 		3C1BE8BA18EA843A0048EA81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1BE8A218EA843A0048EA81 /* UIKit.framework */; };
 		3C1BE8C218EA843A0048EA81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8C018EA843A0048EA81 /* InfoPlist.strings */; };
 		3C1BE8C418EA843A0048EA81 /* ZYUIProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8C318EA843A0048EA81 /* ZYUIProjectTests.m */; };
+		3C1BE8D018EA86840048EA81 /* WidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8CE18EA86840048EA81 /* WidgetViewController.m */; };
+		3C1BE8D118EA86840048EA81 /* WidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8CF18EA86840048EA81 /* WidgetViewController.xib */; };
+		3C1BE8D518EA88A10048EA81 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8D318EA88A10048EA81 /* AnimationViewController.m */; };
+		3C1BE8D618EA88A10048EA81 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8D418EA88A10048EA81 /* AnimationViewController.xib */; };
+		3C1BE8D918EA896C0048EA81 /* ZYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8D818EA896C0048EA81 /* ZYNavigationController.m */; };
+		3C1BE8DE18EAA11A0048EA81 /* ZYButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8DC18EAA11A0048EA81 /* ZYButtonViewController.m */; };
+		3C1BE8DF18EAA11A0048EA81 /* ZYButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8DD18EAA11A0048EA81 /* ZYButtonViewController.xib */; };
+		3C1BE8E318EAA58B0048EA81 /* ZYLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8E118EAA58B0048EA81 /* ZYLabelViewController.m */; };
+		3C1BE8E418EAA58B0048EA81 /* ZYLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8E218EAA58B0048EA81 /* ZYLabelViewController.xib */; };
+		3C1BE8E818EAA7380048EA81 /* ZYTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8E618EAA7380048EA81 /* ZYTextFieldViewController.m */; };
+		3C1BE8E918EAA7380048EA81 /* ZYTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8E718EAA7380048EA81 /* ZYTextFieldViewController.xib */; };
+		3C1BE8ED18EAADF50048EA81 /* ZYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8EB18EAADF50048EA81 /* ZYImageViewController.m */; };
+		3C1BE8EE18EAADF50048EA81 /* ZYImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8EC18EAADF50048EA81 /* ZYImageViewController.xib */; };
+		3C1BE8F218EAAFC00048EA81 /* ZYProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8F018EAAFC00048EA81 /* ZYProgressViewController.m */; };
+		3C1BE8F318EAAFC00048EA81 /* ZYProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8F118EAAFC00048EA81 /* ZYProgressViewController.xib */; };
+		3C1BE8F718EAB2D00048EA81 /* ZYActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BE8F518EAB2D00048EA81 /* ZYActivityIndicatorViewController.m */; };
+		3C1BE8F818EAB2D00048EA81 /* ZYActivityIndicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1BE8F618EAB2D00048EA81 /* ZYActivityIndicatorViewController.xib */; };
+		3C94A59418EAC444009B3D98 /* ZYStepperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94A59318EAC444009B3D98 /* ZYStepperViewController.m */; };
+		3CEC850318EBDA8D00894319 /* ZYToolTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC850118EBDA8D00894319 /* ZYToolTableViewController.m */; };
+		3CEC850418EBDA8D00894319 /* ZYToolTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC850218EBDA8D00894319 /* ZYToolTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C07553618F28CF0001948A3 /* ZYTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTimerViewController.h; sourceTree = "<group>"; };
+		3C07553718F28CF0001948A3 /* ZYTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTimerViewController.m; sourceTree = "<group>"; };
+		3C07553818F28CF0001948A3 /* ZYTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYTimerViewController.xib; sourceTree = "<group>"; };
+		3C07553B18F28D06001948A3 /* ZYThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYThreadViewController.h; sourceTree = "<group>"; };
+		3C07553C18F28D06001948A3 /* ZYThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYThreadViewController.m; sourceTree = "<group>"; };
+		3C07553D18F28D06001948A3 /* ZYThreadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYThreadViewController.xib; sourceTree = "<group>"; };
 		3C1BE89B18EA843A0048EA81 /* ZYUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1BE89E18EA843A0048EA81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C1BE8A018EA843A0048EA81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +78,37 @@
 		3C1BE8BF18EA843A0048EA81 /* ZYUIProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZYUIProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3C1BE8C118EA843A0048EA81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C1BE8C318EA843A0048EA81 /* ZYUIProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYUIProjectTests.m; sourceTree = "<group>"; };
+		3C1BE8CD18EA86840048EA81 /* WidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetViewController.h; sourceTree = "<group>"; };
+		3C1BE8CE18EA86840048EA81 /* WidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetViewController.m; sourceTree = "<group>"; };
+		3C1BE8CF18EA86840048EA81 /* WidgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetViewController.xib; sourceTree = "<group>"; };
+		3C1BE8D218EA88A10048EA81 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		3C1BE8D318EA88A10048EA81 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		3C1BE8D418EA88A10048EA81 /* AnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		3C1BE8D718EA896C0048EA81 /* ZYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNavigationController.h; sourceTree = "<group>"; };
+		3C1BE8D818EA896C0048EA81 /* ZYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNavigationController.m; sourceTree = "<group>"; };
+		3C1BE8DB18EAA11A0048EA81 /* ZYButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYButtonViewController.h; sourceTree = "<group>"; };
+		3C1BE8DC18EAA11A0048EA81 /* ZYButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYButtonViewController.m; sourceTree = "<group>"; };
+		3C1BE8DD18EAA11A0048EA81 /* ZYButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYButtonViewController.xib; sourceTree = "<group>"; };
+		3C1BE8E018EAA58B0048EA81 /* ZYLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLabelViewController.h; sourceTree = "<group>"; };
+		3C1BE8E118EAA58B0048EA81 /* ZYLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLabelViewController.m; sourceTree = "<group>"; };
+		3C1BE8E218EAA58B0048EA81 /* ZYLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYLabelViewController.xib; sourceTree = "<group>"; };
+		3C1BE8E518EAA7380048EA81 /* ZYTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextFieldViewController.h; sourceTree = "<group>"; };
+		3C1BE8E618EAA7380048EA81 /* ZYTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTextFieldViewController.m; sourceTree = "<group>"; };
+		3C1BE8E718EAA7380048EA81 /* ZYTextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYTextFieldViewController.xib; sourceTree = "<group>"; };
+		3C1BE8EA18EAADF50048EA81 /* ZYImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYImageViewController.h; sourceTree = "<group>"; };
+		3C1BE8EB18EAADF50048EA81 /* ZYImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYImageViewController.m; sourceTree = "<group>"; };
+		3C1BE8EC18EAADF50048EA81 /* ZYImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYImageViewController.xib; sourceTree = "<group>"; };
+		3C1BE8EF18EAAFC00048EA81 /* ZYProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProgressViewController.h; sourceTree = "<group>"; };
+		3C1BE8F018EAAFC00048EA81 /* ZYProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProgressViewController.m; sourceTree = "<group>"; };
+		3C1BE8F118EAAFC00048EA81 /* ZYProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYProgressViewController.xib; sourceTree = "<group>"; };
+		3C1BE8F418EAB2D00048EA81 /* ZYActivityIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYActivityIndicatorViewController.h; sourceTree = "<group>"; };
+		3C1BE8F518EAB2D00048EA81 /* ZYActivityIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYActivityIndicatorViewController.m; sourceTree = "<group>"; };
+		3C1BE8F618EAB2D00048EA81 /* ZYActivityIndicatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYActivityIndicatorViewController.xib; sourceTree = "<group>"; };
+		3C94A59218EAC444009B3D98 /* ZYStepperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStepperViewController.h; sourceTree = "<group>"; };
+		3C94A59318EAC444009B3D98 /* ZYStepperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYStepperViewController.m; sourceTree = "<group>"; };
+		3CEC850018EBDA8D00894319 /* ZYToolTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYToolTableViewController.h; sourceTree = "<group>"; };
+		3CEC850118EBDA8D00894319 /* ZYToolTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYToolTableViewController.m; sourceTree = "<group>"; };
+		3CEC850218EBDA8D00894319 /* ZYToolTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYToolTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +135,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C07552618F28906001948A3 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				3C07553618F28CF0001948A3 /* ZYTimerViewController.h */,
+				3C07553718F28CF0001948A3 /* ZYTimerViewController.m */,
+				3C07553818F28CF0001948A3 /* ZYTimerViewController.xib */,
+				3C07553B18F28D06001948A3 /* ZYThreadViewController.h */,
+				3C07553C18F28D06001948A3 /* ZYThreadViewController.m */,
+				3C07553D18F28D06001948A3 /* ZYThreadViewController.xib */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
 		3C1BE89218EA843A0048EA81 = {
 			isa = PBXGroup;
 			children = (
+				3C07552618F28906001948A3 /* tools */,
+				3C1BE8DA18EAA0F50048EA81 /* widget */,
 				3C1BE8A418EA843A0048EA81 /* ZYUIProject */,
 				3C1BE8BD18EA843A0048EA81 /* ZYUIProjectTests */,
 				3C1BE89D18EA843A0048EA81 /* Frameworks */,
@@ -109,8 +185,19 @@
 			children = (
 				3C1BE8AD18EA843A0048EA81 /* zyAppDelegate.h */,
 				3C1BE8AE18EA843A0048EA81 /* zyAppDelegate.m */,
+				3C1BE8D218EA88A10048EA81 /* AnimationViewController.h */,
+				3C1BE8D318EA88A10048EA81 /* AnimationViewController.m */,
+				3C1BE8D418EA88A10048EA81 /* AnimationViewController.xib */,
 				3C1BE8B018EA843A0048EA81 /* Images.xcassets */,
 				3C1BE8A518EA843A0048EA81 /* Supporting Files */,
+				3C1BE8CD18EA86840048EA81 /* WidgetViewController.h */,
+				3C1BE8CE18EA86840048EA81 /* WidgetViewController.m */,
+				3C1BE8CF18EA86840048EA81 /* WidgetViewController.xib */,
+				3CEC850018EBDA8D00894319 /* ZYToolTableViewController.h */,
+				3CEC850118EBDA8D00894319 /* ZYToolTableViewController.m */,
+				3CEC850218EBDA8D00894319 /* ZYToolTableViewController.xib */,
+				3C1BE8D718EA896C0048EA81 /* ZYNavigationController.h */,
+				3C1BE8D818EA896C0048EA81 /* ZYNavigationController.m */,
 			);
 			path = ZYUIProject;
 			sourceTree = "<group>";
@@ -142,6 +229,33 @@
 				3C1BE8C018EA843A0048EA81 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C1BE8DA18EAA0F50048EA81 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				3C1BE8DB18EAA11A0048EA81 /* ZYButtonViewController.h */,
+				3C1BE8DC18EAA11A0048EA81 /* ZYButtonViewController.m */,
+				3C1BE8DD18EAA11A0048EA81 /* ZYButtonViewController.xib */,
+				3C1BE8E018EAA58B0048EA81 /* ZYLabelViewController.h */,
+				3C1BE8E118EAA58B0048EA81 /* ZYLabelViewController.m */,
+				3C1BE8E218EAA58B0048EA81 /* ZYLabelViewController.xib */,
+				3C1BE8E518EAA7380048EA81 /* ZYTextFieldViewController.h */,
+				3C1BE8E618EAA7380048EA81 /* ZYTextFieldViewController.m */,
+				3C1BE8E718EAA7380048EA81 /* ZYTextFieldViewController.xib */,
+				3C1BE8EA18EAADF50048EA81 /* ZYImageViewController.h */,
+				3C1BE8EB18EAADF50048EA81 /* ZYImageViewController.m */,
+				3C1BE8EC18EAADF50048EA81 /* ZYImageViewController.xib */,
+				3C1BE8EF18EAAFC00048EA81 /* ZYProgressViewController.h */,
+				3C1BE8F018EAAFC00048EA81 /* ZYProgressViewController.m */,
+				3C1BE8F118EAAFC00048EA81 /* ZYProgressViewController.xib */,
+				3C1BE8F418EAB2D00048EA81 /* ZYActivityIndicatorViewController.h */,
+				3C1BE8F518EAB2D00048EA81 /* ZYActivityIndicatorViewController.m */,
+				3C1BE8F618EAB2D00048EA81 /* ZYActivityIndicatorViewController.xib */,
+				3C94A59218EAC444009B3D98 /* ZYStepperViewController.h */,
+				3C94A59318EAC444009B3D98 /* ZYStepperViewController.m */,
+			);
+			path = widget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +334,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1BE8E918EAA7380048EA81 /* ZYTextFieldViewController.xib in Resources */,
+				3C1BE8E418EAA58B0048EA81 /* ZYLabelViewController.xib in Resources */,
+				3C1BE8F318EAAFC00048EA81 /* ZYProgressViewController.xib in Resources */,
+				3C1BE8DF18EAA11A0048EA81 /* ZYButtonViewController.xib in Resources */,
+				3C1BE8F818EAB2D00048EA81 /* ZYActivityIndicatorViewController.xib in Resources */,
 				3C1BE8A918EA843A0048EA81 /* InfoPlist.strings in Resources */,
+				3CEC850418EBDA8D00894319 /* ZYToolTableViewController.xib in Resources */,
+				3C1BE8D118EA86840048EA81 /* WidgetViewController.xib in Resources */,
 				3C1BE8B118EA843A0048EA81 /* Images.xcassets in Resources */,
+				3C1BE8D618EA88A10048EA81 /* AnimationViewController.xib in Resources */,
+				3C1BE8EE18EAADF50048EA81 /* ZYImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C07553F18F28D06001948A3 /* ZYThreadViewController.xib in Resources */,
+				3C07553A18F28CF0001948A3 /* ZYTimerViewController.xib in Resources */,
 				3C1BE8C218EA843A0048EA81 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +366,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1BE8AB18EA843A0048EA81 /* main.m in Sources */,
+				3C94A59418EAC444009B3D98 /* ZYStepperViewController.m in Sources */,
+				3C1BE8F718EAB2D00048EA81 /* ZYActivityIndicatorViewController.m in Sources */,
+				3C1BE8E818EAA7380048EA81 /* ZYTextFieldViewController.m in Sources */,
 				3C1BE8AF18EA843A0048EA81 /* zyAppDelegate.m in Sources */,
+				3C1BE8D018EA86840048EA81 /* WidgetViewController.m in Sources */,
+				3C1BE8F218EAAFC00048EA81 /* ZYProgressViewController.m in Sources */,
+				3C1BE8D918EA896C0048EA81 /* ZYNavigationController.m in Sources */,
+				3C1BE8D518EA88A10048EA81 /* AnimationViewController.m in Sources */,
+				3C1BE8ED18EAADF50048EA81 /* ZYImageViewController.m in Sources */,
+				3C1BE8DE18EAA11A0048EA81 /* ZYButtonViewController.m in Sources */,
+				3CEC850318EBDA8D00894319 /* ZYToolTableViewController.m in Sources */,
+				3C1BE8E318EAA58B0048EA81 /* ZYLabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C07553E18F28D06001948A3 /* ZYThreadViewController.m in Sources */,
+				3C07553918F28CF0001948A3 /* ZYTimerViewController.m in Sources */,
 				3C1BE8C418EA843A0048EA81 /* ZYUIProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +576,7 @@
 				3C1BE8C918EA843A0048EA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C1BE8CA18EA843A0048EA81 /* Build configuration list for PBXNativeTarget "ZYUIProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +585,7 @@
 				3C1BE8CC18EA843A0048EA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
